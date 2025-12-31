@@ -1,0 +1,2 @@
+HumanMessage(content="request a refund for order id1234")
+AIMessage(content="Your refund will be iniated soon. Please do follow up regarding that")
