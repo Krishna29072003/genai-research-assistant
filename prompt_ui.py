@@ -71,7 +71,7 @@ citation_style = st.selectbox(
     ]
 )
 
-#prompt template this will tell the referneces for dropdown inputs 
+#prompt template this will tell the referneces to llm  for dropdown inputs 
 
 from langchain_core.prompts import PromptTemplate , load_prompt
 
@@ -88,6 +88,7 @@ prompt = research_template.format(
 
 
 #input_variables=['domain','section','writing_style','year_range','citation_style']
+
 
 if st.button('Summarize'):
     #st.write("hello")
